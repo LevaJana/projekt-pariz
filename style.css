@@ -2,5 +2,83 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.4;
+    background-color: #cde4f9;
+}
 
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #dc6aa1;
+    margin-top: 48px;
+}
+
+#autor {
+    text-align: center;
+    color: #dc6aa1;
+}
+
+#perex {
+    font-size: 24px;
+    color: #808080;
+    text-align: center;
+}
+
+section {
+    background-color: #ffffff;
+    width: 900px;
+    padding: 30px 50px;
+    margin: 20px 0;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 8px;
+}
+
+#obr1 {
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#obr2, #obr3, #obr4, #obr5 {
+    width: 300px;
+    height: 225px;
+}
+
+#obr2, #obr4 {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+#obr3, #obr5 {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#obr6 {
+    width: 100%;
+}
+
+#pariz {
+    display: flex;
+    justify-content: center;
 }
